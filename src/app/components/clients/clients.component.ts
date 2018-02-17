@@ -8,7 +8,6 @@ import { Client } from '../../models/Client';
   templateUrl: './clients.component.html',
   styleUrls: ['./clients.component.css']
 })
-
 export class ClientsComponent implements OnInit {
   clients: Client[];
   totalOwed: number;

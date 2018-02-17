@@ -15,7 +15,7 @@ export class AuthService {
     });
   }
 
-  // getAuth() {
-  //   return this.afAuth.authState.map(auth => auth);
-  // }
+  getAuth() {
+    return this.afAuth.authState.map(auth => auth);
+  }
 }

@@ -19,11 +19,11 @@ export class LoginComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    // this.authService.getAuth().subscribe(auth => {
-    //   if(auth) {
-    //     this.router.navigate(['/']);
-    //   }
-    // });
+    this.authService.getAuth().subscribe(auth => {
+      if(auth) {
+        this.router.navigate(['/']);
+      }
+    });
   }
 
   onSubmit() {
@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
           cssClass: 'alert-success', timeout: 4000
         });
         this.router.navigate(['/']);
-       })
+      })
       .catch(err => {
         this.flashMessage.show(err.message, {
           cssClass: 'alert-danger', timeout: 4000

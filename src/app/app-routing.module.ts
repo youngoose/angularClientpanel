@@ -18,7 +18,7 @@ const routes: Routes = [
   {path: 'client/edit/:id', component: EditClientComponent},
   {path: 'client/:id', component: ClientDetailsComponent},
   {path: 'settings', component: SettingsComponent},
-  {path: '**', component: NotFoundComponent}
+  {path: '**', component: NotFoundComponent},
 ];
 
 @NgModule({
