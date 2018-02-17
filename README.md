@@ -1,6 +1,6 @@
 # Clientpanel
 
-https://clientpanelprod-83752.firebaseapp.com/
+https://clientpanelprod-83752.firebaseapp.com
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
